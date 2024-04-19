@@ -7,6 +7,7 @@
   margin: 0;
   padding: 0;
 }
+
 html {
   font-size: 16px;
   height: 100%;
@@ -26,7 +27,7 @@ a {
 }
 
 a:hover {
-  background-color: #bc4bda;;
+  background-color: #bc4bda;
   color: black;
 }
 
@@ -125,11 +126,9 @@ h1 {
   justify-self: center;
   font-size: 1.5vw;
 }
-
 .descripText h2, h3{
   font-family: bebas neue;
 }
-
 .descripText p, table, h4, .talent p {
   font-family: montserrat;
 }
@@ -141,10 +140,9 @@ h1 {
   padding-top: 40vh;
   margin-left: 10vw;
   margin-right: 10vw;
-  margin-bottom: 40vh;
+  margin-bottom: 45vh;
 }
-
-.talent{
+.talent {
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   background-color: #333446;
   transition: 0.3s;
@@ -152,13 +150,31 @@ h1 {
   padding: 20px;
   margin: 20px;
 }
-
 .talent:hover {
   margin-left: 15px;
   box-shadow: 0 8px 16px 0 rgb(224, 87, 234, 0.5);
-   transition: all 0.35s ease;
+  transition: all 0.35s ease;
 }
-
 .talentImg {
   height: 5vh;
+}
+#passive {
+  margin-bottom: 5vh;
+}
+
+/*footer css*/
+footer {
+  background-image: linear-gradient(to bottom right, #301f47, #1f1230);
+  height: 100px;
+  width: 100%;
+  padding-top: 15px;
+  text-align: center;
+}
+footer img {
+  height: 40px;
+}
+footer p {
+  font-family: bebas neue;
+  font-size: 12px;
+  color: #adadad;
 }

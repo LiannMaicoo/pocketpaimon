@@ -113,27 +113,39 @@ nav ul li{
 }
 
 .overlay p {
-  font-family: montserrat;
-  font-size: 16px;
+  font-family: bebas neue;
+  font-size: 25px;
 }
 
 
-section.about {
+#aboutCharacters, #aboutNations {
   height: 90vh;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: left;
-  padding: 10vw;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
 
 .pic {
   width: 50vw;
 }
 
-#homeImg {
-  width: 90%;
+#aboutWeapons {
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: right;
+  padding-left: 5vw;
+  padding-right: 5vw;
 }
+
+#homeImg {
+  width: 40vw;
+}
+
 .about h2 {
   font-family: bebas neue;
   color: white;
@@ -141,17 +153,33 @@ section.about {
 
 .about p {
   font-family: montserrat;
-  color: white;
+  color: #d4cbe7;
+}
+
+
+
+h3, span {
+  text-align: center;
+  padding-bottom: 3vh;
+}
+
+h3 {
+  font-family: bebas neue;
+  font-size: 35px;
 }
 
 .contact{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  height: 90vh;
   background-color: #39166a;
   color: white;
   font-family: montserrat, sans-serif;
+}
+
+.contactMenu {
+  width: 75vw;
 }
 
 .contact .title span, .contact .rightside1 .title1 span {
@@ -171,7 +199,7 @@ section.about {
 }  
 
 .contact input[type="text"], .contact input[type="password"] {
-    width: 90%; 
+    width: 100%; 
     padding: 10px;
     margin: 10px 0;
     border: none;
@@ -179,8 +207,9 @@ section.about {
 }
 
 .contact .button button {
-    width: 95%;
+    width: 100%;
     padding: 10px;
+    margin: 30px 0;
     font-family: bebas neue;
     font-size: 18px;
     border: none;
@@ -193,6 +222,11 @@ section.about {
 
 .contact .button button:hover {
     background-color: #a035b0;
+}
+
+div.content1{
+  font-family: montserrat;
+  text-align: center;
 }
 
 /*footer css*/
